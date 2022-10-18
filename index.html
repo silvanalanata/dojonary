@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <h1 class="titulo">Dojonary</h1>
+            <input class="search" type="text" name="search" placeholder="Search">
+            <button onclick="login(this)" class="login" value="Login">Login</button>
+        </nav>
+    </header>
+    <main class="container"> 
+        <div class="main2">                   
+            <article class="articulo1"> 
+                <section class="seccion1">                        
+                    <h2 class="ninja"> ninja</h2>    
+                    <h2 class="noun"> noun</h2>       
+                    <h2 class="plural"> Plural: <span> ninja  </span></h2>
+                    <button onclick="alert('Ninja was liker')" class="like"> 13 likes </button>                        
+                </section>    
+                <p>A practitioner skilled in the <a href="#" > Japanese </a> art of <a href="#"> ninjutsu </a></p>                       
+            </article>                        
+            <article class="articulo2">
+                <section class="seccion2"> 
+                    <h2 class="ninja"> ninja</h2>    
+                    <h2 class="noun"> noun</h2>       
+                    <h2 class="plural"> Plural: <span> ninja  </span></h2>
+                    <button class="like"> 37 likes </button>               
+                </section>   
+                <p>A <a href="#" >programmer </a>who breaks down problems with <a href="#" >zen</a>-like focus</p>  
+            </article>          
+        </div> 
+        <aside class="seccion3"> 
+            <p>Dojonary is defined by YOU</p>                       
+            <button onclick="remover(this)" class="add">Add Definition</button>
+        </aside>       
+    </main>
+    <script src="app.js"></script>
+</body>
+</html> 
